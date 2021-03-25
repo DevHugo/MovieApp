@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="MovieApp.app" target="1.8" />
+      <module name="MovieApp.data" target="1.8" />
+      <module name="TvShopApp.app" target="1.8" />
+      <module name="TvShopApp.data" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

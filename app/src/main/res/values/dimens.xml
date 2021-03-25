@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fragment_movie_list_header_expanded">200dp</dimen>
+    <dimen name="fragment_movie_list_header_collapsed">60dp</dimen>
+    <dimen name="fragment_movie_list_avatar">50dp</dimen>
+    <dimen name="start_screen_margin">16dp</dimen>
+    <dimen name="end_screen_margin">16dp</dimen>
+    <dimen name="detail_movie_header">200dp</dimen>
+</resources>

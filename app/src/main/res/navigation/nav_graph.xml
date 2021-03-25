@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movies_list">
+
+    <fragment
+        android:id="@+id/movies_list"
+        android:name="com.trax.movies.movies_list.MoviesListFragment"
+        android:label="Blank"
+        tools:layout="@layout/fragment_movies_list" >
+        <action
+            android:id="@+id/action_movies_list_to_movies_detail"
+            app:destination="@id/movies_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movies_detail"
+        android:name="com.trax.movies.detail_movie.DetailMovieFragment"
+        android:label="Blank"
+        tools:layout="@layout/fragment_detail_movie">
+
+        <argument
+            android:name="movie_id"
+            app:argType="integer"
+            android:defaultValue="-1"/>
+        <action
+            android:id="@+id/action_movies_detail_to_video_player"
+            app:destination="@id/video_player" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/video_player"
+        android:name="com.trax.movies.videoplayer.VideoPlayerFragment"
+        android:label="Blank"
+        tools:layout="@layout/fragment_videoplayer">
+
+        <argument
+            android:name="movie_url"
+            app:argType="string"
+            android:defaultValue=""/>
+
+    </fragment>
+
+</navigation>
