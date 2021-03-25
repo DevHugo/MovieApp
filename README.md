@@ -15,7 +15,7 @@ So the data is fetch from the WS at the start of the app and saved in the local 
 
 Flow goes like this :
  - Fetch : fetchMovies (MoviesListViewModel) -> fetchMovies (Repository) -> fetchMovides (RemoteDataSource) -> fetch data in ws -> saveMovies (LocalDataSource)
- - Observe : observeMovies (MoviesListViewModel) -> observeMovies (Repository) -> observeMovies (LocalDataSource) -> getch in db
+ - Observe : observeMovies (MoviesListViewModel) -> observeMovies (Repository) -> observeMovies (LocalDataSource) -> fetch in db
 
 # Testing
 
@@ -28,7 +28,7 @@ A really simple GitHub action
 
 # Left to do
 
-- Video player is poorly implemented (no good ui, no handle of error)
+- Video player is poorly implemented (no good ui, no handle of error, no handle of any quality)
 
 - Each time we refresh the data, we erase everything. We can just try to guess what have been updated to avoid certain database operation.
   See algo in saveMovies in LocalDataSoource
