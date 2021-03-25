@@ -22,6 +22,10 @@ Flow goes like this :
 Not everything is tested but there is some unit test for the parsing and repository part.
 Integration testing for the view and database.
 
+# CI
+
+A really simple GitHub action
+
 # Left to do
 
 - Video player is poorly implemented (no good ui, no handle of error)
@@ -38,6 +42,7 @@ Integration testing for the view and database.
 - integration test for fetching remote are not done
 
 - proguard
+
 
 # Screenshoot
 
