@@ -1,7 +1,4 @@
-# Screenshoot
-
-![first screen](screenshoot/movies_list.png)
-![second screen](screenshoot/detail_screen.png)
+I did only one first commit. I am ashamed of myself. I should have commit more often but did not the inspiration for.
 
 # Architecture
 
@@ -41,3 +38,8 @@ Integration testing for the view and database.
 - integration test for fetching remote are not done
 
 - proguard
+
+# Screenshoot
+
+![first screen](screenshoot/movies_list.png)
+![second screen](screenshoot/detail_screen.png)
